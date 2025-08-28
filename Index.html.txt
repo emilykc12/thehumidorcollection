@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Humidor Collection: At-home embroidery and sewing services in Charleston, SC. Custom designs for clothing, upholstery, and more from our unique boat-based studio.">
+    <meta name="keywords" content="embroidery Charleston SC, custom sewing, nautical embroidery, pocket tees, hats, bags, upholstery">
+    <title>The Humidor Collection - Custom Embroidery & Sewing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #F0F8FF; /* Light blueish background for beachy feel */
+            color: #001F3F; /* Navy text */
+        }
+        header {
+            background: linear-gradient(to bottom, #008080, #001F3F); /* Teal to navy gradient */
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            position: relative;
+        }
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5em;
+            margin: 0;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3); /* Subtle shadow for modern depth */
+        }
+        header p {
+            font-size: 1.2em;
+            margin: 10px 0 0;
+        }
+        nav {
+            background-color: #2E8B57; /* Seafoam green */
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #FFD700; /* Fighting Lady yellow hover */
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        #about {
+            background-color: #FFFFFF;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Modern shadow */
+        }
+        #services ul {
+            list-style: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        #services li {
+            background: #008080; /* Teal */
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        #services li:hover {
+            transform: scale(1.05); /* Modern hover effect */
+        }
+        #gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        #gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+        #contact {
+            background: #001F3F; /* Navy */
+            color: white;
+            text-align: center;
+        }
+        #contact a {
+            color: #FFD700; /* Yellow links */
+            text-decoration: none;
+        }
+        footer {
+            background: #2E8B57; /* Green */
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9em;
+        }
+        @media (max-width: 768px) {
+            header h1 { font-size: 2em; }
+            nav a { display: block; margin: 10px 0; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Humidor Collection</h1>
+        <p>Custom Embroidery & Sewing Services from Our Boat-Home Studio in Charleston, SC</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>The Humidor Collection is an at-home local embroidery and sewing service, operated right from our unique boat-home in Charleston, SC. We offer everything from simple pocket tee embroidery to custom curtains for your home, with prices ranging from $10 to $300. Whether it's personalized apparel or bespoke upholstery, we bring a nautical touch to every stitch.</p>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li><strong>Pocket Tees</strong>: Custom embroidery on tees for a personal touch.</li>
+            <li><strong>Polos</strong>: Professional designs on polo shirts.</li>
+            <li><strong>Bags & Hats</strong>: Embroider your accessories with style.</li>
+            <li><strong>Any Type of Clothing</strong>: From jackets to jeans, we customize it all.</li>
+            <li><strong>Custom Upholstery</strong>: Tailored curtains, cushions, and more for your home or boat.</li>
+        </ul>
+    </section>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>Add your images here later! For now, placeholders:</p>
+        <img src="https://via.placeholder.com/300x200?text=Embroidered+Tee" alt="Embroidered Pocket Tee">
+        <img src="https://via.placeholder.com/300x200?text=Custom+Hat" alt="Custom Hat">
+        <img src="https://via.placeholder.com/300x200?text=Upholstery+Project" alt="Custom Upholstery">
+        <!-- Add more <img> tags as needed -->
+    </section>
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <p>Email: <a href="mailto:carteremily12@gmail.com">carteremily12@gmail.com</a></p>
+        <p>Phone: 864-510-9022</p>
+        <p>Instagram: <a href="https://instagram.com/emilykc__" target="_blank">@emilykc__</a></p>
+        <p>Location: Based in Charleston, SC – Available online and locally.</p>
+    </section>
+    <footer>
+        &copy; 2025 The Humidor Collection. All rights reserved.
+    </footer>
+</body>
+</html>
